@@ -21,6 +21,8 @@ func main() {
 			fmt.Println(err)
 			fmt.Println("==================")
 			continue
+			// panic выкидывает из программы с кодом ошибки
+			// panic(err)
 		}
 		printBMI(bmi)
 		checker = checkRepeat()
